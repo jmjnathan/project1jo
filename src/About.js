@@ -3,8 +3,9 @@ import Gambar from './img/1.jpg';
 const About = () => {
     return (
     <div className="flex-1 ml-28 relative flex items-center h-auto">
-        <div className="rounded-lg mt-20 overflow-hidden relative">
-            <img src={Gambar} className="rounded-lg border-8 border-blue-500 object-cover" alt="Gambar" />
+        <div className="rounded-lg mt-20 relative">
+                <img src={Gambar} className="rounded-lg object-cover h-[500px] w-[350px] absolute z-[1] top-0 transform translate-y-[10px]" alt="Gambar" />  
+            <div class="h-[500px] w-[350px] border-8 rounded-lg border-blue-500 ml-[100px] transform translate-y-[90px] "></div>
         </div>
         <div className="text-white justify-center ml-32">
             <h1 className="uppercase text-left font-semibold text-2xl">About Me</h1>
